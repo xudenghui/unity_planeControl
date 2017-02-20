@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8B942791-5151-EC7B-5EC0-E3D89436F5B7}") = "飞行模拟", "Assembly-CSharp.csproj", "{AE6050C3-7809-1A8D-9AAF-572E67A98C39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

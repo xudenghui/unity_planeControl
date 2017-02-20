@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="planeControl" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACwAAAAAACAAAAAAACAAAAAAAAAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Mobile Airplanes\Small Passenger Plane\Prefabs\planeControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rotate" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Mobile Airplanes\Small Passenger Plane\Prefabs\rotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cameraControl" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAgBAAEAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\script\cameraControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_down" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAIAAAACAAAAgAAAAAAAAAAEAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\script\demo_down.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_down5" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAIAAAACAAAAgAAAAAAABAAEAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\script\demo_down5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_end" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACAAAAgAAAAAAAAAAAAAAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>Assets\script\demo_end.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_left" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQgAAAAACAAAAgQAAAAAhAAAAIAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\script\demo_left.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_menu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASTgAAAAACAIBAoCAACBIAAADEAAAAAEAQAAEAAAAAg=</HashCode>
+      <FileName>Assets\script\demo_menu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="demo_right" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQgAAAAACAAAAgQAAAAAhAAAAIAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\script\demo_right.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_start" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQQAAAxACAAChwAACAAAAAIAAIAQQAAAAAAQAAAAoA=</HashCode>
+      <FileName>Assets\script\demo_start.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_up" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAABACAAAAwAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\script\demo_up.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_up5" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAIAABACAAAAgAAAAAAAAAAEAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\script\demo_up5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="end" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\script\end.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="menu" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAABAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\script\menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="move" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAIAABACAAAAoAAAAAAABAAEAAAAAAAAgAAEAAAAg=</HashCode>
+      <FileName>Assets\script\move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="start" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQQAAAAACAAAAgAAAAAAAAAAAIAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\script\start.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="turn" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQgAAAAACAAAAgQAAAAAhAAAAIAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\script\turn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="up" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAhACAACgQAACAAAAAAAAAAQQAAAAAAQAAAAoA=</HashCode>
+      <FileName>Assets\script\up.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Water.WaterBasic" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
