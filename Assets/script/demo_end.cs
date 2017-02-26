@@ -19,7 +19,7 @@ public class demo_end : MonoBehaviour {
 		rig.useGravity = true;
 	}
 	void OnCollisionEnter(){
-		if(rig.velocity.x > 3)
-		rig.AddForce (-1, 0, 0);
+		//if(rig.velocity.x > 3)
+		//rig.AddForce (-1, 0, 0);
 	}
 }

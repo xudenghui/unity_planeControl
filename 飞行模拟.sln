@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{8B942791-5151-EC7B-5EC0-E3D89436F5B7}") = "飞行模拟", "Assembly-CSharp.csproj", "{AE6050C3-7809-1A8D-9AAF-572E67A98C39}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "飞行模拟", "飞行模拟.csproj", "{FF269DBF-5546-841A-DA6D-983D608C5BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE6050C3-7809-1A8D-9AAF-572E67A98C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF269DBF-5546-841A-DA6D-983D608C5BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF269DBF-5546-841A-DA6D-983D608C5BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF269DBF-5546-841A-DA6D-983D608C5BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF269DBF-5546-841A-DA6D-983D608C5BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

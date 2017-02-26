@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{AE6050C3-7809-1A8D-9AAF-572E67A98C39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -47,46 +46,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Mobile Airplanes\Small Passenger Plane\Prefabs\planeControl.cs" />
-    <Compile Include="Assets\Mobile Airplanes\Small Passenger Plane\Prefabs\rotate.cs" />
-    <Compile Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
-    <Compile Include="Assets\script\cameraControl.cs" />
-    <Compile Include="Assets\script\demo_down.cs" />
-    <Compile Include="Assets\script\demo_down5.cs" />
-    <Compile Include="Assets\script\demo_end.cs" />
-    <Compile Include="Assets\script\demo_left.cs" />
-    <Compile Include="Assets\script\demo_menu.cs" />
-    <Compile Include="Assets\script\demo_right.cs" />
-    <Compile Include="Assets\script\demo_start.cs" />
-    <Compile Include="Assets\script\demo_up.cs" />
-    <Compile Include="Assets\script\demo_up5.cs" />
-    <Compile Include="Assets\script\end.cs" />
-    <Compile Include="Assets\script\menu.cs" />
-    <Compile Include="Assets\script\move.cs" />
-    <Compile Include="Assets\script\start.cs" />
-    <Compile Include="Assets\script\turn.cs" />
-    <Compile Include="Assets\script\up.cs" />
-    <None Include="Assets\race-track-lake\readmore.txt" />
-    <None Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-    <None Include="ClassDiagram1.cd" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PlaymodeTestsRunner">
-      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Mobile Airplanes\Small Passenger Plane\Prefabs\planeControl.cs" />
+     <Compile Include="Assets\Mobile Airplanes\Small Passenger Plane\Prefabs\rotate.cs" />
+     <Compile Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+     <Compile Include="Assets\script\cameraControl.cs" />
+     <Compile Include="Assets\script\demo_down.cs" />
+     <Compile Include="Assets\script\demo_down5.cs" />
+     <Compile Include="Assets\script\demo_end.cs" />
+     <Compile Include="Assets\script\demo_left.cs" />
+     <Compile Include="Assets\script\demo_menu.cs" />
+     <Compile Include="Assets\script\demo_right.cs" />
+     <Compile Include="Assets\script\demo_start.cs" />
+     <Compile Include="Assets\script\demo_up.cs" />
+     <Compile Include="Assets\script\demo_up5.cs" />
+     <Compile Include="Assets\script\drag_test.cs" />
+     <Compile Include="Assets\script\end.cs" />
+     <Compile Include="Assets\script\menu.cs" />
+     <Compile Include="Assets\script\move.cs" />
+     <Compile Include="Assets\script\start.cs" />
+     <Compile Include="Assets\script\turn.cs" />
+     <Compile Include="Assets\script\up.cs" />
+     <None Include="Assets\race-track-lake\readmore.txt" />
+     <None Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -96,4 +95,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
