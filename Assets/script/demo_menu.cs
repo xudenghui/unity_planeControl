@@ -166,14 +166,18 @@ public class demo_menu : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 		
 	}
 
-	public void Click_left()
-	{
-		Debug.Log("Click_left");
-		if (pressing)
-			gameObject.transform.parent.parent.parent.gameObject.GetComponent<demo_left> ().enabled = true;
-		else
-			gameObject.transform.parent.parent.parent.gameObject.GetComponent<demo_left> ().enabled = false;
-	}
+    public void Click_left()
+    {
+        Debug.Log("Click_left");
+        if (pressing)
+        {
+            gameObject.transform.parent.parent.parent.gameObject.GetComponent<demo_left>().enabled = true;
+            //gameObject.BroadcastMessage("getRightState", true, SendMessageOptions.DontRequireReceiver);
+        }
+        else
+            transform.parent.parent.parent.BroadcastMessage("getRightState", false, SendMessageOptions.DontRequireReceiver);
+        //gameObject.transform.parent.parent.parent.gameObject.GetComponent<demo_left> ().enabled = false;
+    }
 
 	public void Click_turn_right()
 	{

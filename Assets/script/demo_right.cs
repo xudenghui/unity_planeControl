@@ -10,6 +10,7 @@ public class demo_right : MonoBehaviour {
 	Transform tranRight;			//右副翼
 	float turn_angle = 0.3f;        //机身旋转角度
 	float angular = 0.1f;           //副翼旋转角度
+    bool state = false;             //旋转状态
 
 
 	void Start () {
@@ -23,9 +24,17 @@ public class demo_right : MonoBehaviour {
 
 
 	void Update () {
-		turning ();
+        if (Input.GetKey(KeyCode.Q))
+            turning();
+        else
+            flapBalance(); 
 	}
-
+    //获取状态值
+    void  getRightState(bool state)
+    {
+        this.state = state;
+        Debug.Log("接受消息并实现getState:"+state);
+    }
     //机身及副翼联动旋转
 	void turning(){
 		//Debug.Log ("current_angle :"+current_angle);
